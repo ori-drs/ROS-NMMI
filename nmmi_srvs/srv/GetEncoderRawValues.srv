@@ -1,0 +1,11 @@
+# request
+int32 id
+int32 max_repeats
+bool get_values
+uint8 num_encoder_conf_total
+---
+# response
+bool success
+int32 failures
+uint16[] enc_raw
+time stamp

@@ -1,0 +1,5 @@
+<launch>
+  <node name="nmmi_communication_handler" pkg="nmmi_driver" type="nmmi_communication_handler"
+        respawn="true" output="screen">
+  </node>
+</launch>

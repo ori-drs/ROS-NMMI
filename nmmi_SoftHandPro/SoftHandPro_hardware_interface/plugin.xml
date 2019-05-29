@@ -1,0 +1,7 @@
+<library path="libsofthandpro_hardware_interface">
+  <class name="SoftHandPro_hardware_interface/SoftHandProHW" type="SoftHandPro_hardware_interface::SoftHandProHW" base_class_type="hardware_interface::RobotHW">
+  <description>
+    A type of RobotHW
+  </description>
+  </class>
+</library>

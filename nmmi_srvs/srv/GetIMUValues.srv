@@ -1,0 +1,16 @@
+# request
+int32 id
+int32 max_repeats
+bool get_values
+nmmi_msgs/ImuTable imu_table
+bool custom_read_timeout
+---
+# response
+bool success
+int32 failures
+float32[] acc
+float32[] gyro
+float32[] mag
+float32[] quat
+float32[] temp
+time stamp

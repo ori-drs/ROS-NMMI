@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+	<material name="SoftHandPro/optional">
+		<color rgba="0.0 0.5 0.8 1.0"/>
+	</material>
+
+	<material name="SoftHandPro/base">
+		<color rgba="0.35 0.35 0.35 1.0"/>
+	</material>
+
+	<material name="SoftHandPro/palm">
+		<color rgba="0.35 0.35 0.35 1.0"/>
+	</material>
+
+	<material name="SoftHandPro/knuckle">
+		<color rgba="0.35 0.35 0.35 1.0"/>
+	</material>
+
+	<material name="SoftHandPro/proximal">
+		<color rgba="0.35 0.35 0.35 1.0"/>
+	</material>
+
+	<material name="SoftHandPro/middle">
+		<color rgba="0.35 0.35 0.35 1.0"/>
+	</material>
+
+	<material name="SoftHandPro/distal">
+		<color rgba="0.35 0.35 0.35 1.0"/>
+	</material>
+
+	<material name="SoftHandPro/default">
+		<color rgba="0.35 0.35 0.35 1.0"/>
+	</material>
+
+</robot>
