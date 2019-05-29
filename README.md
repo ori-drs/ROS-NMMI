@@ -1,4 +1,4 @@
-!ROS node for NMMI device.
+ROS node for NMMI device.
 
 This repository contains the building blocks for ROS related applications based on _NMMI_ devices. It is composed by all the device-independent structures to interface our devices with the ROS ecosystem, therefore is barely usable as is.
 
@@ -19,8 +19,6 @@ sudo gpasswd -a <user_name> dialout
 where you need to replace the `<user_name>` with your current linux username.
 
 _Note: don't forget to logout or reboot._
-
-```
 
 ### Sources
 >Since you are interested in the ROS interfaces for our devices, it is assumed that you are familiar at least with the very basics of the ROS environment. If not, it might be useful to spend some of your time with [ROS](http://wiki.ros.org/ROS/Tutorials) and [catkin](http://wiki.ros.org/catkin/Tutorials) tutorials. After that, don't forget to come back here and start having fun with our Nodes.
