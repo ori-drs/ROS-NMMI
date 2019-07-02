@@ -33,8 +33,8 @@ add_executable(nmmi_communication_handler
   src/main.cpp
   src/nmmi_communication_handler.cpp
   api/src/cp_communications.cpp
-  ${qb_device_driver_SOURCE_DIR}/api/src/qbmove_communications.cpp
-  ${qb_device_driver_SOURCE_DIR}/src/qb_device_communication_handler.cpp
+  ${qb_device_driver_SOURCE_PREFIX}/api/src/qbmove_communications.cpp
+  ${qb_device_driver_SOURCE_PREFIX}/src/qb_device_communication_handler.cpp
 )
 
 target_link_libraries(nmmi_communication_handler
