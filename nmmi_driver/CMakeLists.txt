@@ -6,6 +6,7 @@ find_package(catkin REQUIRED
   COMPONENTS
     roscpp
     nmmi_srvs
+    qb_device_driver
     qb_device_utils
 )
 
@@ -13,7 +14,6 @@ find_package(qb_device_driver REQUIRED)
 
 include_directories(include
   api/src
-  ${qb_device_driver_INCLUDE_DIRS}
   ${catkin_INCLUDE_DIRS}
 )
 
