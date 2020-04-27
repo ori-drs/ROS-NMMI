@@ -21,6 +21,7 @@ add_message_files(
     Encoder_State.msg
     inertialSensor.msg
     inertialSensorArray.msg
+    inertialSensorArrayStamped.msg
     quaternion.msg
     quaternionArray.msg
     temperature.msg
